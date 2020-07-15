@@ -1,0 +1,322 @@
+/* CSS used here will be applied after bootstrap.css */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+}
+li {
+    list-style: none;
+}
+
+
+.item .thumb {
+	width: 25%;
+	cursor: pointer;
+	float: left;
+}
+.item .thumb img {
+	width: 100%;
+	margin: 2px;
+}
+.item img {
+	width: 100%;	
+}
+
+
+section.product-detail-section {
+    padding: 50px 0px;
+}
+.details {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+h3.product-title {
+    font-size: 20px;
+}
+
+
+.product-title {
+    margin-top: 0;
+}
+
+.product-title {
+    margin-bottom: 15px;
+}
+.product-description {
+    margin-bottom: 5px;
+}
+
+.product-title, .price {
+    font-weight: bold;
+}
+
+.checked {
+    color: #ffc800;
+}
+p.pricce-per-ml {
+    font-size: 13px;
+}
+
+h4.price {
+    font-size: 26px;
+}
+
+
+.color-select {
+    margin: 10px 0px 20px;
+}
+
+div#summary {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.product-cart.product-group {
+    height: 500px;
+}
+
+/*#summary p.collapse:not(.show) {
+    height: 42px !important;
+    overflow: hidden;
+  
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+}*/
+
+/*#summary p.collapsing {
+    min-height: 42px !important;
+}*/
+
+#summary a.collapsed:after  {
+    content: '+ Read More';
+}
+
+#summary a:not(.collapsed):after {
+    content: '- Read Less';
+}
+
+button.btn.btn-primary.add-btn {
+    
+    width: 100%;
+}
+.product-add {
+    margin-bottom: 10px;
+}
+
+.voucher-points {
+    color: #e00a40;
+}
+.img-wrap img {
+    width: 100%;
+}
+.heading-title {
+    margin-bottom: 50px;
+}
+.product-group {
+    padding: 15px;
+    border: 1px solid #d3d3d380;
+}
+
+h4.product-card-title.title {
+    font-size: 14px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+h4.price.prodect-catagory-price {
+    font-size: 20px;
+    margin: 8px 0px;
+}
+
+.voucher-points.product-vouchers p {
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+p.desc {
+    margin-bottom: 30px;
+}
+.input-group.product-input {
+    margin-bottom: 15px;
+}
+
+h3.item-content-status.text-center {
+    color: #1a78ca;
+    font-size: 14px;
+    font-weight: 700;
+}
+.product-cart.product-group {
+    padding: 0px;
+}
+ul.cart-list {
+    padding: 0px;
+}
+span.item-left {
+    width: 33%;
+}
+span.cart-info {
+    width: 75%;
+    margin: auto;
+}
+span.item-right {
+    width: 25%;
+    text-align: right;
+}
+span.item-right button {
+    margin: 10px 10px 0px 0px;
+    padding: 1px 5px;
+    border: none;
+    font-size: 16px;
+    background: #eee;
+}
+.total-price.text-center {
+    padding: 10px;
+}
+
+p.exclude-item {
+    font-size: 12px;
+}
+span.cart-info {
+    font-size: 12px;
+}
+
+span.cart-item {
+    display: flex;
+}
+
+button.btn.btn-primary.add-btn.total-list-btn {
+    margin-bottom: 10px;
+}
+.total-price-vocher.voucher-points p {
+    font-size: 12px;
+}
+
+
+
+/* carousel */
+.media-carousel 
+{
+  margin-bottom: 0;
+  
+}
+/* Previous button  */
+.media-carousel .carousel-control.left 
+{
+  left: -12px;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Next button  */
+.media-carousel .carousel-control.right 
+{
+  right: -12px !important;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+.media-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+
+/* End carousel */
+
+
+.carousel.slide.media-carousel .product-crsl {
+    background: #d6d6d6;
+    opacity: 1;
+    border-radius: 0px;
+    color: #000;
+    top: 35%;
+}
+
+.input-group.number-spinner {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 479px) {
+
+
+	.no-padding {
+	padding : 0px;
+}
+
+.details {
+    padding-top: 50px;
+}
+
+
+figcaption.info-wrap {
+    text-align: left;
+}
+
+
+.heading-title h2 {
+    font-size: 20px;
+}
+
+.heading-title {
+    margin-bottom: 20px;
+}
+
+h3.item-content-status.text-center {
+    font-size: 14px;
+}
+.img-wrap img {
+    width: 100px;
+}
+
+h4.product-card-title.title {
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.product-crsl {
+    height: 360px;
+    overflow: hidden;
+}
+
+.carousel.slide.media-carousel .product-crsl {
+    top: 20%;
+}
+
+}
